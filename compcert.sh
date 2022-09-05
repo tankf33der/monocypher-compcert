@@ -1,6 +1,6 @@
 #!/bin/sh -x
 
-set -x
+set -e -x
 
 mkdir -p compcert
 cp ../src/monocypher.c                     \
